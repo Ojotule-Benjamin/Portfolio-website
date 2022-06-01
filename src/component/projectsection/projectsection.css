@@ -1,0 +1,55 @@
+#projectdivcontainer < div {
+  margin-bottom: 40px;
+}
+.projectsTitle {
+  text-align: center;
+  margin: 70px 10px 70px 10px;
+  color: green;
+  font-weight: 300;
+}
+.projectsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.projectsImg {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 40%;
+  height: 50%;
+  /* margin-left: 25px; */
+}
+.projectsInnerContainer h3 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.projectsInnerContainer p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 24px;
+  display: inline-block;
+  padding-right: 10px;
+  text-justify: inter-cluster;
+}
+.projectsInnerContainer button {
+  width: 20%;
+  height: 50px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: green;
+  border: 1px none;
+  color: white;
+  border-radius: 10px;
+}
+.projectsInnerContainer button:hover {
+  background-color: darkslategrey;
+}
+.projectsInnerContainer button a {
+  text-decoration: none;
+  color: white;
+}
