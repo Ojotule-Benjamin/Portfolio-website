@@ -1,11 +1,10 @@
 .mainContainer {
   width: auto;
   height: 50%;
-  background-color: lightgrey;
+  background-color: #f5f5f5;
   /* padding: 20px 10px 20px 10px; */
   padding: 10%;
   align-items: center;
-
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
@@ -22,9 +21,8 @@
   text-align: center;
   line-height: 80%;
   font-size: 20px;
-  /* font-family: "Times New Roman", Times, serif; */
   padding-bottom: 25px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 24px;
   display: inline-block;
 }

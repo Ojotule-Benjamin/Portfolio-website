@@ -12,7 +12,11 @@
   font-size: 25px;
   font-style: bold;
   font-weight: 800;
-  color: #34b920;
+  color: #007500;
+  margin-left: 30px;
+}
+.navbarTitle:hover {
+  color: #00a300;
 }
 .navbarList {
   list-style: none;

@@ -1,0 +1,39 @@
+.contactContainer {
+  text-align: center;
+  padding: 5px 30% 5px 30%;
+  /* margin-top: -20%; */
+}
+.contactContainer h2 {
+  font-weight: 400;
+  color: green;
+}
+.contactContainer p {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.contactList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 40px;
+  list-style: none;
+}
+.contactList a {
+  color: green;
+}
+.contactList a:hover {
+  color: darkslategrey;
+  transition: 0.2s ease-in-out;
+}
+
+.contactFooter {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-weight: 200;
+}
+.contactFooter p:hover {
+  color: darkslategrey;
+  transition: 0.2s ease-in-out;
+}
