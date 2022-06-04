@@ -20,7 +20,7 @@ const Projectsection = () => {
         </div>
       </div>
 
-      <div className="projectsContainer">
+      <div className="projectsContainer" id="projectItem2">
         <img className="projectsImg" src="../../../asset/2.png" alt="" />
         <div className="projectsInnerContainer">
           <h3 id="projectsTitleInner">AM Realty</h3>
