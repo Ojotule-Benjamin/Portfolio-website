@@ -5,14 +5,16 @@ export const Navbar = () => {
   return (
     <div className="navbarContainer">
       <h4 className="navbarTitle">Ojochoko.</h4>
-      <ul className="navbarList">
-        <li>
-          <a href="#home">HOME</a>
-          <a href="#home">WORK</a>
-          <a href="#home">ABOUT ME</a>
-          <a href="#home">CONTACT</a>
-        </li>
-      </ul>
+      <nav>
+        <ul className="navbarList">
+          <li>
+            <a href="/home">HOME</a>
+            <a href="/work">WORK</a>
+            <a href="/aboutme">ABOUT ME</a>
+            <a href="/contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };

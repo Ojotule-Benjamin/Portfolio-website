@@ -23,45 +23,6 @@
   margin-bottom: 80px;
   padding-left: 40px;
 }
-#projectItem2 
-
-/* second item styling in the container starts here*/
-/* .projectsInnerContainer2 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.projectsInnerContainer2 h3 {
-  font-size: 25px;
-  font-weight: 400;
-}
-.projectsInnerContainer2 p {
-  margin-top: 50px;
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 24px;
-  padding-left: 10px;
-}
-.projectsInnerContainer2 button {
-  width: 20%;
-  height: 50px;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  background-color: green;
-  border: 1px none;
-  color: white;
-  border-radius: 50px;
-}
-
-.projectsInnerContainer2 button:hover {
-  background-color: darkslategrey;
-}
-.projectsInnerContainer2 button a {
-  text-decoration: none;
-  color: white;
-} */
-/*second item styling in the container ends here*/
 
 .projectsInnerContainer h3 {
   margin-top: 80px;
