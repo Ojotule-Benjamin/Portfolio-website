@@ -43,7 +43,8 @@
 }
 
 #projectItem2 {
-  flex-direction: column;
+  flex-direction: row-reverse;
+  margin-left: 40px;
   align-items: center;
 }
 
