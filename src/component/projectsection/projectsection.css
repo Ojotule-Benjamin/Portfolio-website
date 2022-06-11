@@ -4,6 +4,7 @@
   color: green;
   font-weight: 300;
 }
+
 .projectsContainer {
   display: flex;
   align-items: flex-start;
@@ -11,17 +12,46 @@
   margin-bottom: 80px;
   padding-right: 40px;
 }
+@media screen and (max-width: 600px) {
+  .projectsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    padding: 5%;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+}
 .projectsImg {
+  display: block;
   margin-left: 40px;
   margin-right: 40px;
   width: 40%;
   height: 50%;
 }
+@media screen and (max-width: 600px) {
+  .projectsImg {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-left: 50px;
+  }
+}
 
 #projectItem2 {
-  flex-direction: row-reverse;
-  margin-bottom: 80px;
-  padding-left: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .projectsInnerContainer {
+    width: auto;
+    margin: 0 5% 0 5%;
+  }
 }
 
 .projectsInnerContainer h3 {
@@ -29,6 +59,12 @@
   margin-bottom: 20px;
   font-size: 25px;
   font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+  .projectsInnerContainer h3 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
 }
 .projectsInnerContainer p {
   margin-top: 10px;
@@ -39,6 +75,14 @@
   padding-right: 10px;
   text-justify: inter-cluster;
 }
+@media screen and (max-width: 600px) {
+  .projectsInnerContainer p {
+    margin: -25px;
+    margin-bottom: 15%;
+    font-weight: 200;
+    word-spacing: 0.5px;
+  }
+}
 .projectsInnerContainer button {
   width: 20%;
   height: 50px;
@@ -48,8 +92,19 @@
   background-color: green;
   border: 1px none;
   color: white;
-  border-radius: 50px;
 }
+@media screen and (max-width: 600px) {
+  .projectsInnerContainer button {
+    width: 70%;
+    height: 50px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: green;
+    border: 1px none;
+  }
+}
+
 .projectsInnerContainer button:hover {
   background-color: darkslategrey;
 }

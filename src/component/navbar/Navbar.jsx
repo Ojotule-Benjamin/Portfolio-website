@@ -7,12 +7,10 @@ export const Navbar = () => {
       <h4 className="navbarTitle">Ojochoko.</h4>
       <nav>
         <ul className="navbarList">
-          <li>
-            <a href="/home">HOME</a>
-            <a href="/work">WORK</a>
-            <a href="/aboutme">ABOUT ME</a>
-            <a href="/contact">CONTACT</a>
-          </li>
+          <li>HOME</li>
+          <li>WORK</li>
+          <li>ABOUT ME</li>
+          <li>CONTACT</li>
         </ul>
       </nav>
     </div>
