@@ -44,10 +44,22 @@
 
 #projectItem2 {
   flex-direction: row-reverse;
-  margin-left: 40px;
+  margin: 0;
   align-items: center;
-}
 
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 80px;
+  padding-left: 40px;
+}
+@media screen and (max-width: 600px) {
+  #projectItem2 {
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
 @media screen and (max-width: 600px) {
   .projectsInnerContainer {
     width: auto;
