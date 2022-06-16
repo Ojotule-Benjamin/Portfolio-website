@@ -1,17 +1,12 @@
-import React from "react";
 import "./navbar.css";
+import passport from "./passport.jpg";
 
 export const Navbar = () => {
   return (
     <div className="navbarContainer">
-      <h4 className="navbarTitle">Ojochoko.</h4>
       <nav>
-        <ul className="navbarList">
-          <li>HOME</li>
-          <li>WORK</li>
-          <li>ABOUT ME</li>
-          <li>CONTACT</li>
-        </ul>
+        <img src={passport} alt="" className="image" />
+        <h4 className="navbarTitle">Oluwatobi Olukayode</h4>
       </nav>
     </div>
   );

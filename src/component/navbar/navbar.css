@@ -1,27 +1,43 @@
 .navbarContainer {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
   width: auto;
   margin: 10px;
   padding: 20px;
-  position: sticky;
+  position: sticky; */
 }
 .navbarTitle {
-  font-family: "Spartan";
-  font-size: 25px;
+  font-family: "Spartan Cursive";
+  font-size: 50px;
   font-style: bold;
   font-weight: 800;
   color: #007500;
-  margin-left: 30px;
+  margin-left: 200px;
+  margin-top: 10px;
 }
 .navbarTitle:hover {
   color: #00a300;
 }
-.navbarList {
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin-left: 400px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+/* .navbarList {
+  display: flex;
+  flex-direction: row;
   list-style: none;
   text-decoration: none;
-}
+  justify-content: space-between;
+  margin: 0 400px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+} */
 /* Style the links inside the navigation bar */
 .navbarList a {
   color: #808080;
