@@ -14,9 +14,9 @@ const Projectsection = () => {
             feedback from users who download their app and further manage the
             feedback received in a way that can be acted upon.
           </p>
-          <button>
-            <a href="#work">VIEW CASESTUDY</a>
-          </button>
+          <a href="https://facebook.com/" target={"_blank}"}>
+            <button>VIEW CASESTUDY</button>
+          </a>
         </div>
       </div>
 
@@ -30,9 +30,9 @@ const Projectsection = () => {
             barrier to entry for people who want to acquire properties for
             either their personal use or investment purposes.
           </p>
-          <button>
-            <a href="#work">VIEW CASESTUDY</a>
-          </button>
+          <a href="https://facebook.com/" target={"_blank}"}>
+            <button>VIEW CASESTUDY</button>
+          </a>
         </div>
       </div>
 
@@ -44,9 +44,9 @@ const Projectsection = () => {
             CurrentSee is an app created to help people keep track of their
             money flow and stay on top of their expenses.
           </p>
-          <button>
-            <a href="#work">VIEW CASESTUDY</a>
-          </button>
+          <a href="https://facebook.com/" target={"_blank}"}>
+            <button>VIEW CASESTUDY</button>
+          </a>
         </div>
       </div>
     </div>

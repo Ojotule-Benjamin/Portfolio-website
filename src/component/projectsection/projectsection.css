@@ -46,18 +46,18 @@
   flex-direction: row-reverse;
   margin: 0;
   align-items: center;
-
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 80px;
   padding-left: 40px;
 }
 @media screen and (max-width: 600px) {
   #projectItem2 {
     flex-direction: column;
-
     align-items: center;
+    width: auto;
+    margin: 0 5% 0 5%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -105,6 +105,7 @@
   background-color: green;
   border: 1px none;
   color: white;
+  cursor: pointer;
 }
 @media screen and (max-width: 600px) {
   .projectsInnerContainer button {
